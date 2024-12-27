@@ -1,0 +1,4 @@
+/bin/bash: /Users/hyeyeon/Desktop/quiz/run_cron.sh: Operation not permitted
+/bin/bash: /Users/hyeyeon/Desktop/quiz/run_cron.sh: Operation not permitted
+/bin/bash: /Users/hyeyeon/Desktop/quiz/run_cron.sh: Operation not permitted
+/Users/hyeyeon/Desktop/quiz/run_cron.sh: line 5:  7782 Killed: 9               /Users/hyeyeon/Desktop/quiz/quiz/bin/python /Users/hyeyeon/Desktop/quiz/mongodb.py create_daily_quizzes >> /Users/hyeyeon/Desktop/quiz/debug_log.txt 2>&1

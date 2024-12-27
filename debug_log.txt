@@ -1,0 +1,957 @@
+Script started at Mon Dec 23 18:18:00 KST 2024
+Virtual environment activated
+오늘의 퀴즈 10문제가 생성되었습니다.
+Script finished at Mon Dec 23 18:18:15 KST 2024
+Script started at 2024년 12월 23일 월요일 18시 34분 04초 KST
+Virtual environment activated
+오늘의 퀴즈 10문제가 생성되었습니다.
+Script finished at 2024년 12월 23일 월요일 18시 34분 14초 KST
+Script started at 2024년 12월 23일 월요일 18시 36분 43초 KST
+Virtual environment activated
+오늘의 퀴즈 10문제가 생성되었습니다.
+Script finished at 2024년 12월 23일 월요일 18시 36분 53초 KST
+Script started at 2024년 12월 23일 월요일 18시 37분 06초 KST
+Virtual environment activated
+오늘의 퀴즈는 이미 생성되었습니다.
+Script finished at 2024년 12월 23일 월요일 18시 37분 07초 KST
+Script started at 2024년 12월 23일 월요일 18시 38분 21초 KST
+Virtual environment activated
+오늘의 퀴즈 10문제가 생성되었습니다.
+Script finished at 2024년 12월 23일 월요일 18시 38분 31초 KST
+Script started at 2024년 12월 23일 월요일 18시 39분 25초 KST
+Virtual environment activated
+2024-12-23
+Traceback (most recent call last):
+  File "/Users/hyeyeon/Desktop/quiz/mongodb.py", line 117, in <module>
+    generate_quizzes_cron()
+  File "/Users/hyeyeon/Desktop/quiz/mongodb.py", line 96, in generate_quizzes_cron
+    question, answer = generate_quiz()
+  File "/Users/hyeyeon/Desktop/quiz/mongodb.py", line 42, in generate_quiz
+    response = openai.ChatCompletion.create(
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_requestor.py", line 298, in request
+    resp, got_stream = self._interpret_response(result, stream)
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_requestor.py", line 700, in _interpret_response
+    self._interpret_response_line(
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_requestor.py", line 765, in _interpret_response_line
+    raise self.handle_error_response(
+openai.error.AuthenticationError: Incorrect API key provided: sk-.... You can find your API key at https://platform.openai.com/account/api-keys.
+Script finished at 2024년 12월 23일 월요일 18시 39분 26초 KST
+Script started at 2024년 12월 23일 월요일 18시 40분 08초 KST
+Virtual environment activated
+2024-12-23
+오늘의 퀴즈 10문제가 생성되었습니다.
+Script finished at 2024년 12월 23일 월요일 18시 40분 19초 KST
+Script started at 2024년 12월 23일 월요일 18시 44분 48초 KST
+Virtual environment activated
+Traceback (most recent call last):
+  File "/Users/hyeyeon/Desktop/quiz/mongodb.py", line 134, in <module>
+    question, answer = generate_quiz()
+  File "/Users/hyeyeon/Desktop/quiz/mongodb.py", line 85, in generate_quiz
+    response = openai.ChatCompletion.create(
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_requestor.py", line 298, in request
+    resp, got_stream = self._interpret_response(result, stream)
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_requestor.py", line 700, in _interpret_response
+    self._interpret_response_line(
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_requestor.py", line 765, in _interpret_response_line
+    raise self.handle_error_response(
+openai.error.AuthenticationError: Incorrect API key provided: sk-.... You can find your API key at https://platform.openai.com/account/api-keys.
+Script finished at 2024년 12월 23일 월요일 18시 44분 49초 KST
+Script started at 2024년 12월 23일 월요일 18시 45분 44초 KST
+Virtual environment activated
+Traceback (most recent call last):
+  File "/Users/hyeyeon/Desktop/quiz/mongodb.py", line 134, in <module>
+    question, answer = generate_quiz()
+  File "/Users/hyeyeon/Desktop/quiz/mongodb.py", line 85, in generate_quiz
+    response = openai.ChatCompletion.create(
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_requestor.py", line 298, in request
+    resp, got_stream = self._interpret_response(result, stream)
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_requestor.py", line 700, in _interpret_response
+    self._interpret_response_line(
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_requestor.py", line 765, in _interpret_response_line
+    raise self.handle_error_response(
+openai.error.AuthenticationError: Incorrect API key provided: sk-.... You can find your API key at https://platform.openai.com/account/api-keys.
+Script finished at 2024년 12월 23일 월요일 18시 45분 46초 KST
+Script started at 2024년 12월 23일 월요일 18시 46분 22초 KST
+Virtual environment activated
+오늘의 퀴즈 10문제가 생성되었습니다.
+Script finished at 2024년 12월 23일 월요일 18시 46분 32초 KST
+Script started at 2024년 12월 23일 월요일 18시 47분 13초 KST
+Virtual environment activated
+2024-12-23
+오늘의 퀴즈 10문제가 생성되었습니다.
+Script finished at 2024년 12월 23일 월요일 18시 47분 23초 KST
+Script started at 2024년 12월 23일 월요일 18시 50분 32초 KST
+Virtual environment activated
+2024-12-23
+오늘의 퀴즈 10문제가 생성되었습니다.
+Script finished at 2024년 12월 23일 월요일 18시 50분 46초 KST
+Script started at Tue Dec 24 11:00:00 KST 2024
+Virtual environment activated
+2024-12-24
+오늘의 퀴즈 10문제가 생성되었습니다.
+Script finished at Tue Dec 24 11:00:14 KST 2024
+Script started at Thu Dec 26 09:46:01 KST 2024
+Virtual environment activated
+2024-12-26
+오늘의 퀴즈 10문제가 생성되었습니다.
+Script finished at Thu Dec 26 09:46:15 KST 2024
+Script started at Thu Dec 26 09:55:00 KST 2024
+Virtual environment activated
+ * Serving Flask app 'mongodb'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 142-712-141
+ * Detected change in '/Users/hyeyeon/Desktop/quiz/mongodb.py', reloading
+ * Restarting with stat
+2024-12-26
+오늘의 퀴즈 10문제가 생성되었습니다.
+Script finished at Thu Dec 26 09:58:06 KST 2024
+Script started at Thu Dec 26 10:05:00 KST 2024
+Virtual environment activated
+ * Serving Flask app 'mongodb'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 142-712-141
+ * Detected change in '/Users/hyeyeon/Desktop/quiz/mongodb.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 142-712-141
+Script started at Thu Dec 26 10:09:00 KST 2024
+Virtual environment activated
+ * Serving Flask app 'mongodb'
+ * Debug mode: on
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+On macOS, try disabling the 'AirPlay Receiver' service from System Preferences -> General -> AirDrop & Handoff.
+Script finished at Thu Dec 26 10:09:14 KST 2024
+ * Detected change in '/Users/hyeyeon/Desktop/quiz/mongodb.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 142-712-141
+Script started at Thu Dec 26 10:13:00 KST 2024
+Virtual environment activated
+ * Serving Flask app 'mongodb'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 142-712-141
+ * Detected change in '/Users/hyeyeon/Desktop/quiz/mongodb.py', reloading
+ * Detected change in '/Users/hyeyeon/Desktop/quiz/mongodb.py', reloading
+ * Restarting with stat
+ * Restarting with stat
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable 	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+TOKENIZERS_PARALLELISM=(true | false)
+퀴즈 생성 시작: 2024-12-26
+Traceback (most recent call last):
+  File "/Users/hyeyeon/Desktop/quiz/mongodb.py", line 124, in <module>
+    generate_quizzes_cron()
+  File "/Users/hyeyeon/Desktop/quiz/mongodb.py", line 99, in generate_quizzes_cron
+    question, answer = generate_quiz(existing_questions_embeddings)
+  File "/Users/hyeyeon/Desktop/quiz/mongodb.py", line 52, in generate_quiz
+    response = openai.ChatCompletion.create(
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_requestor.py", line 298, in request
+    resp, got_stream = self._interpret_response(result, stream)
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_requestor.py", line 700, in _interpret_response
+    self._interpret_response_line(
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_requestor.py", line 765, in _interpret_response_line
+    raise self.handle_error_response(
+openai.error.AuthenticationError: Incorrect API key provided: YOUR_API_KEY. You can find your API key at https://platform.openai.com/account/api-keys.
+퀴즈 생성 시작: 2024-12-26
+Traceback (most recent call last):
+  File "/Users/hyeyeon/Desktop/quiz/mongodb.py", line 124, in <module>
+    generate_quizzes_cron()
+  File "/Users/hyeyeon/Desktop/quiz/mongodb.py", line 99, in generate_quizzes_cron
+    question, answer = generate_quiz(existing_questions_embeddings)
+  File "/Users/hyeyeon/Desktop/quiz/mongodb.py", line 52, in generate_quiz
+    response = openai.ChatCompletion.create(
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_requestor.py", line 298, in request
+    resp, got_stream = self._interpret_response(result, stream)
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_requestor.py", line 700, in _interpret_response
+    self._interpret_response_line(
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_requestor.py", line 765, in _interpret_response_line
+    raise self.handle_error_response(
+openai.error.AuthenticationError: Incorrect API key provided: YOUR_API_KEY. You can find your API key at https://platform.openai.com/account/api-keys.
+Script finished at Thu Dec 26 10:16:27 KST 2024
+Script finished at Thu Dec 26 10:16:27 KST 2024
+Script started at Thu Dec 26 10:17:00 KST 2024
+Virtual environment activated
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+퀴즈 생성 시작: 2024-12-26
+Traceback (most recent call last):
+  File "/Users/hyeyeon/Desktop/quiz/mongodb.py", line 124, in <module>
+    generate_quizzes_cron()
+  File "/Users/hyeyeon/Desktop/quiz/mongodb.py", line 99, in generate_quizzes_cron
+    question, answer = generate_quiz(existing_questions_embeddings)
+  File "/Users/hyeyeon/Desktop/quiz/mongodb.py", line 52, in generate_quiz
+    response = openai.ChatCompletion.create(
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_requestor.py", line 298, in request
+    resp, got_stream = self._interpret_response(result, stream)
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_requestor.py", line 700, in _interpret_response
+    self._interpret_response_line(
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_requestor.py", line 765, in _interpret_response_line
+    raise self.handle_error_response(
+openai.error.AuthenticationError: Incorrect API key provided: YOUR_API_KEY. You can find your API key at https://platform.openai.com/account/api-keys.
+Script finished at Thu Dec 26 10:17:15 KST 2024
+Script started at Thu Dec 26 10:19:00 KST 2024
+Virtual environment activated
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+퀴즈 생성 시작: 2024-12-26
+Traceback (most recent call last):
+  File "/Users/hyeyeon/Desktop/quiz/mongodb.py", line 124, in <module>
+    generate_quizzes_cron()
+  File "/Users/hyeyeon/Desktop/quiz/mongodb.py", line 103, in generate_quizzes_cron
+    existing_questions_embeddings = util.cat([existing_questions_embeddings, new_embedding])
+AttributeError: module 'sentence_transformers.util' has no attribute 'cat'
+Script finished at Thu Dec 26 10:19:21 KST 2024
+Script started at Thu Dec 26 10:25:00 KST 2024
+Virtual environment activated
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+퀴즈 생성 시작: 2024-12-26
+Traceback (most recent call last):
+  File "/Users/hyeyeon/Desktop/quiz/mongodb.py", line 126, in <module>
+    generate_quizzes_cron()
+  File "/Users/hyeyeon/Desktop/quiz/mongodb.py", line 97, in generate_quizzes_cron
+    question, answer = generate_quiz(existing_questions_embeddings)
+  File "/Users/hyeyeon/Desktop/quiz/mongodb.py", line 50, in generate_quiz
+    response = openai.ChatCompletion.create(
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_requestor.py", line 298, in request
+    resp, got_stream = self._interpret_response(result, stream)
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_requestor.py", line 700, in _interpret_response
+    self._interpret_response_line(
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_requestor.py", line 765, in _interpret_response_line
+    raise self.handle_error_response(
+openai.error.AuthenticationError: Incorrect API key provided: YOUR_API_KEY. You can find your API key at https://platform.openai.com/account/api-keys.
+Script finished at Thu Dec 26 10:25:13 KST 2024
+Script started at Thu Dec 26 10:30:00 KST 2024
+Virtual environment activated
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+Script finished at Thu Dec 26 10:37:34 KST 2024
+/Users/hyeyeon/.pyenv/versions/3.10.12/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+Script started at Thu Dec 26 10:41:00 KST 2024
+Virtual environment activated
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+퀴즈 생성 시작: 2024-12-26
+API 응답 시간: 0.8836729526519775초
+API 응답 시간: 0.8125491142272949초
+API 응답 시간: 0.8269150257110596초
+API 응답 시간: 0.753493070602417초
+API 응답 시간: 0.8072278499603271초
+API 응답 시간: 1.169440746307373초
+API 응답 시간: 0.8934221267700195초
+API 응답 시간: 0.665855884552002초
+API 응답 시간: 0.7788867950439453초
+API 응답 시간: 0.7989380359649658초
+API 응답 시간: 1.075057029724121초
+API 응답 시간: 0.9382989406585693초
+API 응답 시간: 0.8699829578399658초
+API 응답 시간: 0.8036608695983887초
+API 응답 시간: 0.8663198947906494초
+API 응답 시간: 0.9804441928863525초
+API 응답 시간: 0.7672939300537109초
+API 응답 시간: 0.8912351131439209초
+API 응답 시간: 0.9253270626068115초
+API 응답 시간: 0.7161791324615479초
+API 응답 시간: 0.8469090461730957초
+API 응답 시간: 0.8685760498046875초
+API 응답 시간: 1.0262672901153564초
+API 응답 시간: 0.7866091728210449초
+API 응답 시간: 0.7702138423919678초
+API 응답 시간: 0.7301397323608398초
+API 응답 시간: 0.8689568042755127초
+API 응답 시간: 0.7945947647094727초
+API 응답 시간: 1.0007500648498535초
+API 응답 시간: 0.8413052558898926초
+API 응답 시간: 0.9239301681518555초
+API 응답 시간: 0.7376749515533447초
+API 응답 시간: 0.8267090320587158초
+API 응답 시간: 0.7418711185455322초
+API 응답 시간: 0.729060173034668초
+API 응답 시간: 0.6980769634246826초
+API 응답 시간: 0.7373030185699463초
+API 응답 시간: 0.7606580257415771초
+API 응답 시간: 0.6865379810333252초
+API 응답 시간: 0.7373130321502686초
+API 응답 시간: 0.728585958480835초
+API 응답 시간: 1.0442869663238525초
+API 응답 시간: 0.7382810115814209초
+API 응답 시간: 0.9281678199768066초
+API 응답 시간: 4.3715338706970215초
+API 응답 시간: 0.8633570671081543초
+API 응답 시간: 1.3461341857910156초
+API 응답 시간: 0.7401330471038818초
+API 응답 시간: 0.9505071640014648초
+API 응답 시간: 0.8111090660095215초
+API 응답 시간: 0.8259339332580566초
+API 응답 시간: 1.942626953125초
+API 응답 시간: 0.8185458183288574초
+API 응답 시간: 0.7505338191986084초
+API 응답 시간: 0.7786729335784912초
+API 응답 시간: 0.8673338890075684초
+API 응답 시간: 0.7914860248565674초
+API 응답 시간: 1.1334161758422852초
+API 응답 시간: 0.7942421436309814초
+API 응답 시간: 0.7944319248199463초
+API 응답 시간: 0.8690512180328369초
+API 응답 시간: 0.7094719409942627초
+API 응답 시간: 0.8186008930206299초
+API 응답 시간: 0.7159721851348877초
+API 응답 시간: 1.3609211444854736초
+API 응답 시간: 0.9308197498321533초
+API 응답 시간: 0.9041728973388672초
+API 응답 시간: 0.7207241058349609초
+API 응답 시간: 1.4375159740447998초
+API 응답 시간: 0.8511829376220703초
+API 응답 시간: 0.8280372619628906초
+API 응답 시간: 0.929746150970459초
+API 응답 시간: 0.8602211475372314초
+API 응답 시간: 0.774651288986206초
+API 응답 시간: 0.9793169498443604초
+API 응답 시간: 0.7033689022064209초
+API 응답 시간: 0.7438430786132812초
+API 응답 시간: 0.7295107841491699초
+API 응답 시간: 0.7731311321258545초
+API 응답 시간: 0.9452230930328369초
+API 응답 시간: 0.7744278907775879초
+API 응답 시간: 0.7428328990936279초
+API 응답 시간: 0.7635860443115234초
+API 응답 시간: 0.7373340129852295초
+API 응답 시간: 0.7591288089752197초
+API 응답 시간: 0.833622932434082초
+API 응답 시간: 0.9681499004364014초
+API 응답 시간: 0.7590968608856201초
+API 응답 시간: 0.6553428173065186초
+API 응답 시간: 0.6640810966491699초
+API 응답 시간: 0.7745029926300049초
+API 응답 시간: 0.7825028896331787초
+API 응답 시간: 0.9171802997589111초
+API 응답 시간: 0.8760280609130859초
+API 응답 시간: 0.6767628192901611초
+API 응답 시간: 0.8098239898681641초
+API 응답 시간: 0.784965991973877초
+API 응답 시간: 0.7066800594329834초
+API 응답 시간: 1.283195972442627초
+API 응답 시간: 0.8053040504455566초
+API 응답 시간: 0.7055020332336426초
+API 응답 시간: 0.8362417221069336초
+API 응답 시간: 0.9131729602813721초
+API 응답 시간: 1.0382530689239502초
+API 응답 시간: 0.8535270690917969초
+API 응답 시간: 0.7783057689666748초
+API 응답 시간: 0.9838931560516357초
+API 응답 시간: 0.971750020980835초
+API 응답 시간: 1.0817341804504395초
+API 응답 시간: 0.8336501121520996초
+API 응답 시간: 0.8306601047515869초
+API 응답 시간: 0.8804421424865723초
+API 응답 시간: 0.8234338760375977초
+API 응답 시간: 0.7407968044281006초
+API 응답 시간: 0.8707199096679688초
+API 응답 시간: 0.7830958366394043초
+API 응답 시간: 1.0485100746154785초
+API 응답 시간: 0.7879862785339355초
+API 응답 시간: 0.7718000411987305초
+API 응답 시간: 1.0823009014129639초
+API 응답 시간: 1.2072739601135254초
+API 응답 시간: 0.8754591941833496초
+API 응답 시간: 0.7877051830291748초
+API 응답 시간: 0.9577200412750244초
+API 응답 시간: 0.926018238067627초
+API 응답 시간: 0.8907408714294434초
+API 응답 시간: 0.8269727230072021초
+API 응답 시간: 0.776129961013794초
+API 응답 시간: 0.7408080101013184초
+API 응답 시간: 1.045710802078247초
+API 응답 시간: 0.8029849529266357초
+API 응답 시간: 0.833345890045166초
+API 응답 시간: 0.8799898624420166초
+API 응답 시간: 1.0062470436096191초
+API 응답 시간: 0.8375451564788818초
+API 응답 시간: 0.9034039974212646초
+API 응답 시간: 1.026813268661499초
+API 응답 시간: 0.7817709445953369초
+API 응답 시간: 1.0990440845489502초
+API 응답 시간: 0.8543510437011719초
+API 응답 시간: 0.8177740573883057초
+API 응답 시간: 0.784916877746582초
+API 응답 시간: 0.8863248825073242초
+API 응답 시간: 0.7686378955841064초
+API 응답 시간: 0.9366538524627686초
+API 응답 시간: 0.7691071033477783초
+API 응답 시간: 0.9145159721374512초
+API 응답 시간: 0.8704290390014648초
+API 응답 시간: 1.0887460708618164초
+API 응답 시간: 0.9011790752410889초
+API 응답 시간: 0.8217179775238037초
+API 응답 시간: 0.8809089660644531초
+API 응답 시간: 1.116637945175171초
+API 응답 시간: 0.8166031837463379초
+API 응답 시간: 0.8753530979156494초
+API 응답 시간: 0.8702001571655273초
+API 응답 시간: 0.9432399272918701초
+API 응답 시간: 0.782498836517334초
+API 응답 시간: 1.158647060394287초
+API 응답 시간: 1.041769027709961초
+API 응답 시간: 0.9888448715209961초
+API 응답 시간: 0.767956018447876초
+API 응답 시간: 0.7532107830047607초
+API 응답 시간: 1.031656265258789초
+API 응답 시간: 0.9317970275878906초
+API 응답 시간: 0.7241311073303223초
+API 응답 시간: 0.9506080150604248초
+API 응답 시간: 1.1609821319580078초
+API 응답 시간: 0.8575811386108398초
+API 응답 시간: 0.7545249462127686초
+API 응답 시간: 0.7432999610900879초
+API 응답 시간: 0.9169840812683105초
+API 응답 시간: 0.8543601036071777초
+API 응답 시간: 1.1050679683685303초
+API 응답 시간: 0.8198258876800537초
+API 응답 시간: 0.7857351303100586초
+API 응답 시간: 0.8858931064605713초
+API 응답 시간: 0.9572739601135254초
+API 응답 시간: 1.0432140827178955초
+API 응답 시간: 1.0766611099243164초
+API 응답 시간: 0.9276571273803711초
+API 응답 시간: 0.8270761966705322초
+API 응답 시간: 0.8167281150817871초
+API 응답 시간: 0.8487582206726074초
+API 응답 시간: 0.8714849948883057초
+API 응답 시간: 0.878809928894043초
+API 응답 시간: 1.0030970573425293초
+API 응답 시간: 0.9975659847259521초
+API 응답 시간: 0.7174601554870605초
+API 응답 시간: 0.8702428340911865초
+API 응답 시간: 1.2445118427276611초
+API 응답 시간: 0.78273606300354초
+API 응답 시간: 0.8030452728271484초
+API 응답 시간: 0.7928369045257568초
+API 응답 시간: 0.8733680248260498초
+API 응답 시간: 0.9224231243133545초
+API 응답 시간: 0.8318030834197998초
+API 응답 시간: 0.8982839584350586초
+API 응답 시간: 0.8989851474761963초
+API 응답 시간: 0.7635912895202637초
+API 응답 시간: 0.8124101161956787초
+API 응답 시간: 0.7749531269073486초
+API 응답 시간: 0.7412459850311279초
+API 응답 시간: 1.0183959007263184초
+API 응답 시간: 0.9038047790527344초
+API 응답 시간: 0.8255600929260254초
+API 응답 시간: 0.908721923828125초
+API 응답 시간: 0.6656301021575928초
+API 응답 시간: 0.888171911239624초
+API 응답 시간: 0.8663849830627441초
+API 응답 시간: 0.7229690551757812초
+API 응답 시간: 0.7720530033111572초
+API 응답 시간: 0.6916232109069824초
+API 응답 시간: 0.7264871597290039초
+API 응답 시간: 1.413809061050415초
+API 응답 시간: 0.814417839050293초
+API 응답 시간: 0.7718939781188965초
+API 응답 시간: 0.8526821136474609초
+API 응답 시간: 1.2249369621276855초
+API 응답 시간: 0.8405718803405762초
+API 응답 시간: 0.9025571346282959초
+API 응답 시간: 0.9099788665771484초
+API 응답 시간: 0.9777641296386719초
+API 응답 시간: 0.727410078048706초
+API 응답 시간: 0.8096652030944824초
+API 응답 시간: 0.781768798828125초
+API 응답 시간: 0.8802108764648438초
+API 응답 시간: 0.7719919681549072초
+API 응답 시간: 0.9450600147247314초
+API 응답 시간: 1.0412342548370361초
+API 응답 시간: 0.903723955154419초
+API 응답 시간: 0.7428510189056396초
+API 응답 시간: 0.8773739337921143초
+API 응답 시간: 0.8689248561859131초
+API 응답 시간: 1.0864410400390625초
+API 응답 시간: 0.8559799194335938초
+API 응답 시간: 0.7873818874359131초
+API 응답 시간: 0.8073077201843262초
+API 응답 시간: 0.9395489692687988초
+API 응답 시간: 0.8737828731536865초
+API 응답 시간: 0.7485291957855225초
+API 응답 시간: 0.7606499195098877초
+API 응답 시간: 0.7684078216552734초
+API 응답 시간: 0.7096490859985352초
+API 응답 시간: 0.7700958251953125초
+API 응답 시간: 0.7196331024169922초
+API 응답 시간: 0.6650030612945557초
+API 응답 시간: 0.8301219940185547초
+API 응답 시간: 1.010335922241211초
+API 응답 시간: 0.7136492729187012초
+API 응답 시간: 0.8996109962463379초
+API 응답 시간: 0.8575558662414551초
+API 응답 시간: 0.869826078414917초
+API 응답 시간: 0.8502330780029297초
+API 응답 시간: 0.74173903465271초
+API 응답 시간: 0.7601399421691895초
+API 응답 시간: 0.8430120944976807초
+API 응답 시간: 1.1890349388122559초
+API 응답 시간: 0.7998669147491455초
+API 응답 시간: 0.7838263511657715초
+API 응답 시간: 0.9663369655609131초
+API 응답 시간: 0.749845027923584초
+API 응답 시간: 0.9013791084289551초
+API 응답 시간: 1.0036239624023438초
+API 응답 시간: 0.8952581882476807초
+API 응답 시간: 1.1415140628814697초
+API 응답 시간: 0.7712008953094482초
+API 응답 시간: 0.7405538558959961초
+API 응답 시간: 0.7521400451660156초
+API 응답 시간: 0.8599350452423096초
+API 응답 시간: 0.7185401916503906초
+API 응답 시간: 0.9307899475097656초
+API 응답 시간: 0.9005827903747559초
+API 응답 시간: 1.0068919658660889초
+API 응답 시간: 0.7976670265197754초
+API 응답 시간: 0.8864750862121582초
+API 응답 시간: 0.7909717559814453초
+API 응답 시간: 0.7707309722900391초
+API 응답 시간: 0.9289307594299316초
+API 응답 시간: 0.8284239768981934초
+API 응답 시간: 0.7771279811859131초
+API 응답 시간: 0.7819039821624756초
+API 응답 시간: 0.7584929466247559초
+API 응답 시간: 0.8448469638824463초
+API 응답 시간: 0.7013776302337646초
+API 응답 시간: 0.8289039134979248초
+API 응답 시간: 0.7849180698394775초
+API 응답 시간: 0.9779307842254639초
+API 응답 시간: 0.9627361297607422초
+API 응답 시간: 0.844674825668335초
+API 응답 시간: 0.8570199012756348초
+API 응답 시간: 1.0896730422973633초
+API 응답 시간: 0.7521748542785645초
+API 응답 시간: 0.8025720119476318초
+API 응답 시간: 0.8327221870422363초
+API 응답 시간: 0.7513389587402344초
+API 응답 시간: 1.27789306640625초
+API 응답 시간: 0.7173418998718262초
+API 응답 시간: 1.2410459518432617초
+API 응답 시간: 0.7161750793457031초
+API 응답 시간: 0.8492782115936279초
+API 응답 시간: 0.7573308944702148초
+API 응답 시간: 1.7129480838775635초
+API 응답 시간: 0.9416797161102295초
+API 응답 시간: 1.1968700885772705초
+API 응답 시간: 0.8497231006622314초
+API 응답 시간: 0.801264762878418초
+API 응답 시간: 0.7224259376525879초
+API 응답 시간: 0.9580562114715576초
+API 응답 시간: 0.8753180503845215초
+API 응답 시간: 0.7319610118865967초
+API 응답 시간: 0.9325408935546875초
+API 응답 시간: 0.7674820423126221초
+API 응답 시간: 1.080226182937622초
+API 응답 시간: 0.8772759437561035초
+API 응답 시간: 0.8824231624603271초
+API 응답 시간: 1.1013708114624023초
+API 응답 시간: 1.0125617980957031초
+API 응답 시간: 0.9360020160675049초
+API 응답 시간: 0.6371119022369385초
+API 응답 시간: 0.8186080455780029초
+API 응답 시간: 0.9004549980163574초
+API 응답 시간: 0.7094976902008057초
+API 응답 시간: 2.6583411693573초
+API 응답 시간: 0.7314250469207764초
+API 응답 시간: 0.7529778480529785초
+API 응답 시간: 1.3005080223083496초
+API 응답 시간: 1.5524537563323975초
+API 응답 시간: 1.0423941612243652초
+API 응답 시간: 0.800469160079956초
+API 응답 시간: 0.9662611484527588초
+API 응답 시간: 0.8180420398712158초
+API 응답 시간: 0.8383958339691162초
+API 응답 시간: 0.6956799030303955초
+API 응답 시간: 0.863347053527832초
+API 응답 시간: 0.8841910362243652초
+API 응답 시간: 0.9505620002746582초
+API 응답 시간: 0.6852989196777344초
+API 응답 시간: 0.861257791519165초
+API 응답 시간: 1.0111820697784424초
+API 응답 시간: 0.7414989471435547초
+API 응답 시간: 2.8691580295562744초
+API 응답 시간: 0.9026942253112793초
+API 응답 시간: 0.8529891967773438초
+API 응답 시간: 0.8187379837036133초
+API 응답 시간: 0.8195199966430664초
+API 응답 시간: 0.8650598526000977초
+API 응답 시간: 0.7987236976623535초
+API 응답 시간: 0.8519821166992188초
+API 응답 시간: 0.8879489898681641초
+API 응답 시간: 0.8786942958831787초
+API 응답 시간: 1.0999479293823242초
+API 응답 시간: 0.8359720706939697초
+API 응답 시간: 0.8838000297546387초
+API 응답 시간: 0.7934660911560059초
+API 응답 시간: 0.7395226955413818초
+API 응답 시간: 1.4599699974060059초
+API 응답 시간: 1.0032970905303955초
+API 응답 시간: 1.070256233215332초
+API 응답 시간: 1.0266680717468262초
+API 응답 시간: 0.8278188705444336초
+API 응답 시간: 0.9021990299224854초
+API 응답 시간: 0.8106989860534668초
+API 응답 시간: 0.8575069904327393초
+API 응답 시간: 0.8769850730895996초
+API 응답 시간: 0.7920598983764648초
+API 응답 시간: 1.0526671409606934초
+API 응답 시간: 0.9349870681762695초
+API 응답 시간: 0.8714311122894287초
+API 응답 시간: 0.7179062366485596초
+API 응답 시간: 0.9312779903411865초
+API 응답 시간: 0.7349209785461426초
+API 응답 시간: 0.7369639873504639초
+API 응답 시간: 0.8243880271911621초
+API 응답 시간: 0.8224499225616455초
+API 응답 시간: 0.8823018074035645초
+API 응답 시간: 0.8524479866027832초
+API 응답 시간: 0.9074521064758301초
+API 응답 시간: 0.761218786239624초
+API 응답 시간: 0.7684588432312012초
+API 응답 시간: 0.725377082824707초
+API 응답 시간: 0.7436280250549316초
+API 응답 시간: 0.8965661525726318초
+API 응답 시간: 0.8734409809112549초
+API 응답 시간: 0.8967990875244141초
+API 응답 시간: 0.8717939853668213초
+API 응답 시간: 0.8275361061096191초
+API 응답 시간: 0.6861569881439209초
+API 응답 시간: 0.838555097579956초
+API 응답 시간: 0.784243106842041초
+API 응답 시간: 0.9360611438751221초
+API 응답 시간: 0.9287490844726562초
+API 응답 시간: 0.7707366943359375초
+API 응답 시간: 0.8838479518890381초
+API 응답 시간: 0.8779997825622559초
+API 응답 시간: 0.958122968673706초
+API 응답 시간: 1.033879041671753초
+API 응답 시간: 0.8884270191192627초
+API 응답 시간: 0.7961618900299072초
+API 응답 시간: 0.7893590927124023초
+API 응답 시간: 0.8827090263366699초
+API 응답 시간: 0.9663307666778564초
+API 응답 시간: 0.9494657516479492초
+API 응답 시간: 0.8038589954376221초
+API 응답 시간: 1.2909269332885742초
+API 응답 시간: 0.8425347805023193초
+API 응답 시간: 0.9841728210449219초
+API 응답 시간: 0.8852558135986328초
+API 응답 시간: 0.8507709503173828초
+API 응답 시간: 0.8844621181488037초
+API 응답 시간: 1.0548651218414307초
+API 응답 시간: 1.0616190433502197초
+API 응답 시간: 0.7811398506164551초
+API 응답 시간: 0.899616003036499초
+API 응답 시간: 1.5819909572601318초
+API 응답 시간: 0.9013259410858154초
+API 응답 시간: 0.7983670234680176초
+API 응답 시간: 0.8296229839324951초
+API 응답 시간: 0.7522909641265869초
+API 응답 시간: 0.9698669910430908초
+API 응답 시간: 0.7764689922332764초
+API 응답 시간: 0.8727600574493408초
+API 응답 시간: 0.8304488658905029초
+API 응답 시간: 0.8427813053131104초
+API 응답 시간: 0.8510568141937256초
+API 응답 시간: 1.017392873764038초
+API 응답 시간: 0.9441871643066406초
+API 응답 시간: 0.9525339603424072초
+API 응답 시간: 0.8978638648986816초
+API 응답 시간: 0.7732868194580078초
+API 응답 시간: 0.7692840099334717초
+API 응답 시간: 0.7930960655212402초
+API 응답 시간: 0.8922522068023682초
+API 응답 시간: 0.8909173011779785초
+API 응답 시간: 0.9042518138885498초
+API 응답 시간: 0.7316639423370361초
+API 응답 시간: 0.7523860931396484초
+API 응답 시간: 0.879817008972168초
+API 응답 시간: 0.7773911952972412초
+API 응답 시간: 0.8130218982696533초
+API 응답 시간: 1.1484270095825195초
+API 응답 시간: 0.8057920932769775초
+API 응답 시간: 0.7900691032409668초
+API 응답 시간: 0.9828863143920898초
+API 응답 시간: 1.080336093902588초
+API 응답 시간: 0.7654693126678467초
+API 응답 시간: 0.9847900867462158초
+API 응답 시간: 0.8796899318695068초
+API 응답 시간: 0.8719930648803711초
+API 응답 시간: 0.9518909454345703초
+API 응답 시간: 0.7928421497344971초
+API 응답 시간: 0.8767988681793213초
+API 응답 시간: 0.6960761547088623초
+API 응답 시간: 0.9886460304260254초
+API 응답 시간: 0.8929529190063477초
+API 응답 시간: 0.7428662776947021초
+API 응답 시간: 0.7931418418884277초
+API 응답 시간: 0.8116719722747803초
+API 응답 시간: 0.8992369174957275초
+API 응답 시간: 4.4399189949035645초
+API 응답 시간: 0.7957210540771484초
+API 응답 시간: 0.865117073059082초
+API 응답 시간: 0.8473460674285889초
+API 응답 시간: 0.7386720180511475초
+API 응답 시간: 0.6992237567901611초
+API 응답 시간: 1.0017929077148438초
+API 응답 시간: 0.7242560386657715초
+API 응답 시간: 0.7702009677886963초
+API 응답 시간: 0.9577121734619141초
+API 응답 시간: 1.5105271339416504초
+API 응답 시간: 0.8397037982940674초
+API 응답 시간: 0.9367742538452148초
+API 응답 시간: 0.7905580997467041초
+API 응답 시간: 0.7634758949279785초
+API 응답 시간: 0.7411410808563232초
+API 응답 시간: 0.9188799858093262초
+API 응답 시간: 0.9568228721618652초
+API 응답 시간: 0.7290918827056885초
+API 응답 시간: 0.796177864074707초
+API 응답 시간: 0.8197460174560547초
+API 응답 시간: 0.781984806060791초
+API 응답 시간: 0.8500452041625977초
+API 응답 시간: 0.7398478984832764초
+API 응답 시간: 0.9284677505493164초
+API 응답 시간: 0.7653000354766846초
+API 응답 시간: 1.0900781154632568초
+API 응답 시간: 0.7163152694702148초
+API 응답 시간: 0.7776241302490234초
+API 응답 시간: 0.7361149787902832초
+API 응답 시간: 0.7463600635528564초
+API 응답 시간: 0.7932019233703613초
+API 응답 시간: 0.7688679695129395초
+API 응답 시간: 0.8884060382843018초
+API 응답 시간: 0.717642068862915초
+API 응답 시간: 0.7811257839202881초
+API 응답 시간: 1.590245008468628초
+API 응답 시간: 0.8274281024932861초
+API 응답 시간: 0.9022810459136963초
+API 응답 시간: 0.8458921909332275초
+API 응답 시간: 0.9145069122314453초
+API 응답 시간: 0.7662990093231201초
+API 응답 시간: 0.7616751194000244초
+API 응답 시간: 0.8707230091094971초
+API 응답 시간: 0.7027649879455566초
+API 응답 시간: 0.7728729248046875초
+API 응답 시간: 0.9892311096191406초
+API 응답 시간: 0.7032489776611328초
+API 응답 시간: 0.8624348640441895초
+API 응답 시간: 0.8413832187652588초
+API 응답 시간: 0.7042441368103027초
+API 응답 시간: 0.7008769512176514초
+API 응답 시간: 0.9952518939971924초
+API 응답 시간: 0.8068509101867676초
+API 응답 시간: 0.8116998672485352초
+API 응답 시간: 0.8670520782470703초
+API 응답 시간: 0.8570499420166016초
+API 응답 시간: 0.7621572017669678초
+API 응답 시간: 0.9042329788208008초
+API 응답 시간: 0.7150280475616455초
+API 응답 시간: 0.8765621185302734초
+API 응답 시간: 0.7703433036804199초
+API 응답 시간: 0.8854451179504395초
+API 응답 시간: 0.8747057914733887초
+API 응답 시간: 0.8346908092498779초
+API 응답 시간: 0.8408029079437256초
+API 응답 시간: 0.7655489444732666초
+API 응답 시간: 0.7516570091247559초
+API 응답 시간: 5.209676027297974초
+API 응답 시간: 0.8502919673919678초
+API 응답 시간: 0.8717098236083984초
+API 응답 시간: 0.8427670001983643초
+API 응답 시간: 0.9761919975280762초
+API 응답 시간: 0.8106560707092285초
+API 응답 시간: 0.7874140739440918초
+API 응답 시간: 0.8688678741455078초
+API 응답 시간: 0.9725890159606934초
+API 응답 시간: 0.7801978588104248초
+API 응답 시간: 0.955470085144043초
+API 응답 시간: 0.9938628673553467초
+API 응답 시간: 0.7283179759979248초
+API 응답 시간: 0.9186339378356934초
+API 응답 시간: 1.4963810443878174초
+API 응답 시간: 0.8062379360198975초
+API 응답 시간: 0.8227880001068115초
+API 응답 시간: 0.8340680599212646초
+API 응답 시간: 0.9504919052124023초
+API 응답 시간: 1.714893102645874초
+API 응답 시간: 0.7766327857971191초
+API 응답 시간: 0.9677748680114746초
+API 응답 시간: 0.7571430206298828초
+API 응답 시간: 0.8208277225494385초
+API 응답 시간: 0.9393730163574219초
+API 응답 시간: 0.9120850563049316초
+API 응답 시간: 0.8127968311309814초
+API 응답 시간: 0.7806210517883301초
+API 응답 시간: 1.0051298141479492초
+API 응답 시간: 1.0225536823272705초
+API 응답 시간: 0.7069723606109619초
+API 응답 시간: 0.9369821548461914초
+API 응답 시간: 2.4028470516204834초
+API 응답 시간: 0.7740490436553955초
+API 응답 시간: 0.760047197341919초
+API 응답 시간: 0.7531797885894775초
+API 응답 시간: 0.849586009979248초
+API 응답 시간: 0.7338616847991943초
+API 응답 시간: 0.9221630096435547초
+API 응답 시간: 0.8726730346679688초
+API 응답 시간: 1.0812499523162842초
+API 응답 시간: 0.8424060344696045초
+API 응답 시간: 0.7841768264770508초
+API 응답 시간: 1.1170837879180908초
+API 응답 시간: 1.105743169784546초
+API 응답 시간: 1.0438530445098877초
+API 응답 시간: 0.8057608604431152초
+API 응답 시간: 0.834064245223999초
+API 응답 시간: 0.8155760765075684초
+API 응답 시간: 0.7257909774780273초
+API 응답 시간: 0.7382242679595947초
+API 응답 시간: 0.8884928226470947초
+API 응답 시간: 0.7979671955108643초
+API 응답 시간: 0.8975660800933838초
+Traceback (most recent call last):
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/urllib3/connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "/Users/hyeyeon/.pyenv/versions/3.10.12/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/Users/hyeyeon/.pyenv/versions/3.10.12/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/Users/hyeyeon/.pyenv/versions/3.10.12/lib/python3.10/http/client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/urllib3/util/retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/urllib3/connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+  File "/Users/hyeyeon/.pyenv/versions/3.10.12/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/Users/hyeyeon/.pyenv/versions/3.10.12/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/Users/hyeyeon/.pyenv/versions/3.10.12/lib/python3.10/http/client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_requestor.py", line 596, in request_raw
+    result = _thread_context.session.request(
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/requests/adapters.py", line 682, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/hyeyeon/Desktop/quiz/mongodb.py", line 129, in <module>
+    generate_quizzes_cron()
+  File "/Users/hyeyeon/Desktop/quiz/mongodb.py", line 100, in generate_quizzes_cron
+    question, answer = generate_quiz(existing_questions_embeddings)
+  File "/Users/hyeyeon/Desktop/quiz/mongodb.py", line 53, in generate_quiz
+    response = openai.ChatCompletion.create(
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_requestor.py", line 288, in request
+    result = self.request_raw(
+  File "/Users/hyeyeon/Desktop/quiz/quiz/lib/python3.10/site-packages/openai/api_requestor.py", line 609, in request_raw
+    raise error.APIConnectionError(
+openai.error.APIConnectionError: Error communicating with OpenAI: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Script finished at Thu Dec 26 10:51:19 KST 2024
+Script started at Thu Dec 26 10:56:00 KST 2024
+Virtual environment activated
+2024-12-26
+오늘의 퀴즈 10문제가 생성되었습니다.
+Script finished at Thu Dec 26 10:56:10 KST 2024
+Script started at Fri Dec 27 10:56:00 KST 2024
+Virtual environment activated
+2024-12-27
+오늘의 퀴즈 10문제가 생성되었습니다.
+Script finished at Fri Dec 27 10:56:12 KST 2024
